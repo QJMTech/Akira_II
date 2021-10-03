@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_bad_guy",
-    "path": "sprites/spr_temp_bad_guy/spr_temp_bad_guy.yy",
+    "name": "spr_flying_bad_guy",
+    "path": "sprites/spr_flying_bad_guy/spr_flying_bad_guy.yy",
   },
   "solid": false,
   "visible": true,
