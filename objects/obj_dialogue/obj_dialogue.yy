@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_akira",
-    "path": "sprites/spr_akira/spr_akira.yy",
+    "name": "spr_dialogue",
+    "path": "sprites/spr_dialogue/spr_dialogue.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_akira_idle_anim",
-    "path": "sprites/spr_akira_idle_anim/spr_akira_idle_anim.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -26,15 +23,17 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Title Screen",
+    "path": "folders/Objects/Title Screen.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_dialogue",
   "tags": [],
   "resourceType": "GMObject",
 }
