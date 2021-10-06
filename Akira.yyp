@@ -23,6 +23,7 @@
     {"id":{"name":"TweenGet","path":"scripts/TweenGet/TweenGet.yy",},"order":2,},
     {"id":{"name":"Akira_Title","path":"sprites/Akira_Title/Akira_Title.yy",},"order":2,},
     {"id":{"name":"TweenMore","path":"scripts/TweenMore/TweenMore.yy",},"order":4,},
+    {"id":{"name":"BGM_music","path":"sounds/BGM_music/BGM_music.yy",},"order":0,},
     {"id":{"name":"TweenExists","path":"scripts/TweenExists/TweenExists.yy",},"order":0,},
     {"id":{"name":"dialog_utilities","path":"scripts/dialog_utilities/dialog_utilities.yy",},"order":0,},
     {"id":{"name":"tileset_main","path":"tilesets/tileset_main/tileset_main.yy",},"order":0,},
@@ -69,6 +70,7 @@
     {"id":{"name":"obj_play_game","path":"objects/obj_play_game/obj_play_game.yy",},"order":1,},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},"order":2,},
     {"id":{"name":"TGMS_EventCallbacks","path":"scripts/TGMS_EventCallbacks/TGMS_EventCallbacks.yy",},"order":7,},
+    {"id":{"name":"game_over_music","path":"sounds/game_over_music/game_over_music.yy",},"order":1,},
     {"id":{"name":"TweenCreate","path":"scripts/TweenCreate/TweenCreate.yy",},"order":0,},
     {"id":{"name":"spr_akira_running_anim","path":"sprites/spr_akira_running_anim/spr_akira_running_anim.yy",},"order":0,},
     {"id":{"name":"TGMS_SystemUtilities","path":"scripts/TGMS_SystemUtilities/TGMS_SystemUtilities.yy",},"order":10,},
@@ -79,6 +81,7 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -134,7 +137,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Akira",
