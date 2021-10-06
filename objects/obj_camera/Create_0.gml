@@ -1,2 +1,2 @@
-camera_width = 128;
-camera_height = 144;
+camera_width = 256;
+camera_height = 288;

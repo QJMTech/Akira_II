@@ -9,7 +9,7 @@ if ( xDirection != 0 )
 }
 
 xSpeed = xDirection * player_speed;
-ySpeed++;
+ySpeed += .6;
 
 if ( onTheGround )
 {
