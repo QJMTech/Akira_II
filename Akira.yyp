@@ -33,6 +33,7 @@
     {"id":{"name":"spr_flying_bad_guy","path":"sprites/spr_flying_bad_guy/spr_flying_bad_guy.yy",},"order":1,},
     {"id":{"name":"TPExt","path":"scripts/TPExt/TPExt.yy",},"order":0,},
     {"id":{"name":"TPNull","path":"scripts/TPNull/TPNull.yy",},"order":1,},
+    {"id":{"name":"spawn_scr","path":"scripts/spawn_scr/spawn_scr.yy",},"order":1,},
     {"id":{"name":"TGMS_AutoProperties","path":"scripts/TGMS_AutoProperties/TGMS_AutoProperties.yy",},"order":3,},
     {"id":{"name":"TGMS_SpecialHandles","path":"scripts/TGMS_SpecialHandles/TGMS_SpecialHandles.yy",},"order":9,},
     {"id":{"name":"pickup","path":"sprites/pickup/pickup.yy",},"order":1,},
@@ -137,7 +138,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "Akira",
