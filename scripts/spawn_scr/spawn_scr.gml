@@ -4,7 +4,8 @@ function spawnToken()
 	{
 	// declare vars
 	var xx, yy;
-	var placed = false;
+	globalvar placed;
+	placed = false;
 	
 	while (placed == false)
 		{
@@ -22,10 +23,6 @@ function spawnToken()
 			{
 			instance_create_layer((xx div 32)*32 + (sprite_get_width(pickup) / 2), (yy div 32)*32 + (sprite_get_height(pickup) / 2), instance_lyr, pickup_token); 
 			placed = true;
-			}
-		else
-			{
-			show_debug_message("Location taken, trying again");	
 			}
 		}
 	}
