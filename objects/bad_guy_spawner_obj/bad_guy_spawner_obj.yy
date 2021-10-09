@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_flying_bad_guy",
-    "path": "sprites/spr_flying_bad_guy/spr_flying_bad_guy.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +18,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_temp_bad_guy",
+  "name": "bad_guy_spawner_obj",
   "tags": [],
   "resourceType": "GMObject",
 }
