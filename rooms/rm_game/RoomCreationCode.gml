@@ -1,6 +1,10 @@
 var seq = layer_sequence_create("Sequence", 54, 112, opening_game_sequence);
 layer_sequence_play(seq);
 
+// loading font
+globalvar custom_font;
+custom_font = font_add("Retro Stereo Wide.ttf", 24, false, false, 32, 128);
+
 // assign variables
 globalvar instance_lyr, HUD_lyr, tokenCount;
 
