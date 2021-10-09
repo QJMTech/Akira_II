@@ -15,9 +15,6 @@ function spawnToken()
 		// random spot in room
 		xx = irandom(room_width);
 		yy = irandom(room_height);
-		
-		show_debug_message(string(xx));	
-		show_debug_message(string(yy));	
 	
 		if (instance_position(xx, yy, obj_wall) == noone && instance_position(xx, yy + 32, obj_wall) != noone)
 			{

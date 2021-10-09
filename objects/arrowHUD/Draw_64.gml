@@ -7,6 +7,6 @@ if (instance_exists(obj_player))
 	}
 
 draw_set_font(custom_font);
-draw_text(view_wport[0]*.02, view_hport[0]*.02, string(tokenCount) + "/3");
+draw_text(view_wport[0]*.02, view_hport[0]*.02, string(tokenCount) + "/" + string(tokensToWin));
 	
 
