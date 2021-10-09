@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Akira_Background_orig","path":"sprites/Akira_Background_orig/Akira_Background_orig.yy",},"order":0,},
     {"id":{"name":"TGMS_Terms_Of_Use","path":"notes/TGMS_Terms_Of_Use/TGMS_Terms_Of_Use.yy",},"order":2,},
+    {"id":{"name":"winscreen","path":"sprites/winscreen/winscreen.yy",},"order":4,},
     {"id":{"name":"TweenCalc","path":"scripts/TweenCalc/TweenCalc.yy",},"order":0,},
     {"id":{"name":"temparrow","path":"sprites/temparrow/temparrow.yy",},"order":6,},
     {"id":{"name":"Play_Game","path":"sprites/Play_Game/Play_Game.yy",},"order":3,},
@@ -9,9 +10,11 @@
     {"id":{"name":"TPList","path":"scripts/TPList/TPList.yy",},"order":2,},
     {"id":{"name":"TGMS_Documentation","path":"notes/TGMS_Documentation/TGMS_Documentation.yy",},"order":0,},
     {"id":{"name":"gameloop_scr","path":"scripts/gameloop_scr/gameloop_scr.yy",},"order":2,},
+    {"id":{"name":"gameover","path":"sprites/gameover/gameover.yy",},"order":2,},
     {"id":{"name":"TweenPlay","path":"scripts/TweenPlay/TweenPlay.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"TPMap","path":"scripts/TPMap/TPMap.yy",},"order":3,},
+    {"id":{"name":"restart","path":"sprites/restart/restart.yy",},"order":3,},
     {"id":{"name":"TweenResume","path":"scripts/TweenResume/TweenResume.yy",},"order":8,},
     {"id":{"name":"spr_dialogue","path":"sprites/spr_dialogue/spr_dialogue.yy",},"order":6,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
@@ -145,7 +148,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Retro Stereo Wide.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Akira",
