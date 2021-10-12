@@ -8,4 +8,4 @@ if(firstRun == true)
 }
 
 //play game over bgm
-audio_play_sound(game_over_music, 1, true);
+audio_play_sound(win_music, 1, false);

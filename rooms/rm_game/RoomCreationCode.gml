@@ -7,7 +7,7 @@ if(firstRun == false)
 	// Stop end-game BGM
 	audio_stop_all();
 	
-	// Start main BGM again
+	// Restart main BGM again
 	audio_play_sound(BGM_music, 1, true);
 }
 
@@ -36,6 +36,3 @@ instance_lyr = layer_get_id("Instances");
 spawnToken();
 
 // moved HUD to after HOw To Play is displayed
-
-
-// restart bgm

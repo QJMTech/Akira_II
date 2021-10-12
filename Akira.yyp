@@ -57,6 +57,7 @@
     {"id":{"name":"spr_temp_bad_guy","path":"sprites/spr_temp_bad_guy/spr_temp_bad_guy.yy",},"order":0,},
     {"id":{"name":"TGMS_Safe_To_Delete_Scripts","path":"notes/TGMS_Safe_To_Delete_Scripts/TGMS_Safe_To_Delete_Scripts.yy",},"order":1,},
     {"id":{"name":"Play_Game_Hover","path":"sprites/Play_Game_Hover/Play_Game_Hover.yy",},"order":5,},
+    {"id":{"name":"win_music","path":"sounds/win_music/win_music.yy",},"order":2,},
     {"id":{"name":"TweenDestroy","path":"scripts/TweenDestroy/TweenDestroy.yy",},"order":2,},
     {"id":{"name":"TweenStep","path":"scripts/TweenStep/TweenStep.yy",},"order":2,},
     {"id":{"name":"TweenDefine","path":"scripts/TweenDefine/TweenDefine.yy",},"order":1,},
