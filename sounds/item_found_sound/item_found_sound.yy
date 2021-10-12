@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.21,
+  "volume": 0.62,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "BGM_music.wav",
-  "duration": 131.0119,
+  "soundFile": "item_found_sound.wav",
+  "duration": 1.846145,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BGM_music",
+  "name": "item_found_sound",
   "tags": [],
   "resourceType": "GMSound",
 }

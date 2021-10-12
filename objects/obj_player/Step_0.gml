@@ -33,7 +33,9 @@ if ( onTheGround )
 		if(playerCantMove == false)
 		{
 			// Change this to affect jump height
-			ySpeed = -11;	
+			ySpeed = -11;
+			// Sound effect
+			audio_play_sound(jump_sound, 3, 0);
 		}
 	}
 }
