@@ -17,7 +17,7 @@ globalvar instance_lyr, HUD_lyr, tokenCount, tokensToWin, remainingLives;
 
 // set player token count to 0
 tokenCount = 0;
-tokensToWin = 1;
+tokensToWin = 3;
 remainingLives = 3;
 
 instance_lyr = layer_get_id("Instances");

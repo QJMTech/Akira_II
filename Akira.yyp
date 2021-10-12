@@ -14,6 +14,7 @@
     {"id":{"name":"gameloop_scr","path":"scripts/gameloop_scr/gameloop_scr.yy",},"order":2,},
     {"id":{"name":"gameover","path":"sprites/gameover/gameover.yy",},"order":2,},
     {"id":{"name":"TweenPlay","path":"scripts/TweenPlay/TweenPlay.yy",},"order":5,},
+    {"id":{"name":"heart","path":"sprites/heart/heart.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"TPMap","path":"scripts/TPMap/TPMap.yy",},"order":3,},
     {"id":{"name":"restart","path":"sprites/restart/restart.yy",},"order":3,},
@@ -42,6 +43,7 @@
     {"id":{"name":"TGMS_EasyTweens","path":"scripts/TGMS_EasyTweens/TGMS_EasyTweens.yy",},"order":6,},
     {"id":{"name":"opening_game_sequence","path":"sequences/opening_game_sequence/opening_game_sequence.yy",},"order":0,},
     {"id":{"name":"TweenPath","path":"scripts/TweenPath/TweenPath.yy",},"order":1,},
+    {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},"order":3,},
     {"id":{"name":"spr_flying_bad_guy","path":"sprites/spr_flying_bad_guy/spr_flying_bad_guy.yy",},"order":1,},
     {"id":{"name":"TPExt","path":"scripts/TPExt/TPExt.yy",},"order":0,},
     {"id":{"name":"TPNull","path":"scripts/TPNull/TPNull.yy",},"order":1,},
@@ -66,6 +68,7 @@
     {"id":{"name":"Play_Game_Clicked","path":"sprites/Play_Game_Clicked/Play_Game_Clicked.yy",},"order":4,},
     {"id":{"name":"TweenStop","path":"scripts/TweenStop/TweenStop.yy",},"order":11,},
     {"id":{"name":"TGMS_DefaultProperties","path":"scripts/TGMS_DefaultProperties/TGMS_DefaultProperties.yy",},"order":5,},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":2,},
     {"id":{"name":"TGMS_SelectTweens","path":"scripts/TGMS_SelectTweens/TGMS_SelectTweens.yy",},"order":8,},
     {"id":{"name":"obj_SharedTweener","path":"objects/obj_SharedTweener/obj_SharedTweener.yy",},"order":0,},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":0,},
@@ -112,6 +115,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"roomId":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
