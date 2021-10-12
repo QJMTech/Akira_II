@@ -3,6 +3,7 @@
     {"id":{"name":"Akira_Background_orig","path":"sprites/Akira_Background_orig/Akira_Background_orig.yy",},"order":0,},
     {"id":{"name":"TGMS_Terms_Of_Use","path":"notes/TGMS_Terms_Of_Use/TGMS_Terms_Of_Use.yy",},"order":2,},
     {"id":{"name":"winscreen","path":"sprites/winscreen/winscreen.yy",},"order":4,},
+    {"id":{"name":"lose_screen_obj","path":"objects/lose_screen_obj/lose_screen_obj.yy",},"order":13,},
     {"id":{"name":"Alarm1","path":"objects/Alarm1/Alarm1.yy",},"order":1,},
     {"id":{"name":"TweenCalc","path":"scripts/TweenCalc/TweenCalc.yy",},"order":0,},
     {"id":{"name":"temparrow","path":"sprites/temparrow/temparrow.yy",},"order":6,},
@@ -158,7 +159,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Retro Stereo Wide.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "Akira",
