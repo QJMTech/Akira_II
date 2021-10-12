@@ -1,6 +1,16 @@
 // disable player movement for duration of beginning
 playerCantMove = true;
 
+// Restart BGM if this is the second Playthrough
+if(firstRun == false)
+{
+	// Stop end-game BGM
+	audio_stop_all();
+	
+	// Start main BGM again
+	audio_play_sound(BGM_music, 1, true);
+}
+
 // Play intro animation
 var seq = layer_sequence_create("Sequence", 54, 112, opening_game_sequence);
 layer_sequence_play(seq);
@@ -26,3 +36,6 @@ instance_lyr = layer_get_id("Instances");
 spawnToken();
 
 // moved HUD to after HOw To Play is displayed
+
+
+// restart bgm
