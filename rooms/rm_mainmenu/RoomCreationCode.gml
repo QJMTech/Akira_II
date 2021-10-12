@@ -1,3 +1,6 @@
+globalvar firstRun;
+firstRun = true;
+
 with(inst_714F2D0B)
 {
 	TweenEasyFade(0.0, 1.0, 0, 90, EaseInOutBack)

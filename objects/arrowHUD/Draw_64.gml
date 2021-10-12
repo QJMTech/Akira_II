@@ -17,6 +17,8 @@ if (instance_exists(obj_player))
 	if( remainingLives == 2)
 		{
 		draw_sprite(heart, 0, view_wport[0]*.93, view_hport[0]*.02);
+		
+		draw_sprite(heart, 0, view_wport[0]*.95, view_hport[0]*.02);
 		}
 		
 	if( remainingLives == 1)
