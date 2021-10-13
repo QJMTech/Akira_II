@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "how_to_play_spr",
-    "path": "sprites/how_to_play_spr/how_to_play_spr.yy",
+    "name": "HowToPlayJaime_PLEZ",
+    "path": "sprites/HowToPlayJaime_PLEZ/HowToPlayJaime_PLEZ.yy",
   },
   "solid": false,
   "visible": true,
