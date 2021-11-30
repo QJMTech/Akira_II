@@ -53,7 +53,7 @@
     "spriteId": {"name":"spr_akira_running_anim","path":"sprites/spr_akira_running_anim/spr_akira_running_anim.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 11.0,
+    "playbackSpeed": 13.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

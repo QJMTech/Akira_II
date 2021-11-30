@@ -1,11 +1,25 @@
 
 var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed (vk_space );
+var dash = keyboard_check_pressed (vk_shift );
 var onTheGround = place_meeting( x, y + 1, obj_wall);
+
+dashDuration = max(dashDuration - 1, 0);
 
 if(playerCantMove == true)
 {
 	xDirection = 0;
+}
+
+// Player shouldnt fall
+if(dashDuration > 0) ySpeed = 0;
+
+// player is dashing
+if(dash && dashing == false)
+{
+	dashDuration = 10;
+	xSpeed = image_xscale * dashSpd;
+	dashing = true;
 }
 
 
@@ -14,10 +28,19 @@ if ( xDirection != 0 )
 	image_xscale = xDirection;	
 }
 
-xSpeed = xDirection * player_speed;
-ySpeed += .6;
+if(dashDuration == 0)
+{
+	xSpeed = xDirection * player_speed;
+	ySpeed += .6;
+	dashing = false;
+}
 
-if ( onTheGround )
+if(dashDuration > 0)
+{
+	// Add dashing sprite
+	sprite_index = spr_dash;
+}
+else if ( onTheGround )
 {
 	if ( xDirection != 0 )
 	{
@@ -33,9 +56,9 @@ if ( onTheGround )
 		if(playerCantMove == false)
 		{
 			// Change this to affect jump height
-			ySpeed = -11;
+			ySpeed = -9;
 			// Sound effect
-			audio_play_sound(jump_sound, 3, 0);
+			audio_play_sound(jump_audio, 3, 0);     // replaced with sound from PROJECT 3
 		}
 	}
 }
