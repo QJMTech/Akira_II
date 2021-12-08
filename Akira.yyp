@@ -9,7 +9,6 @@
     {"id":{"name":"temparrow","path":"sprites/temparrow/temparrow.yy",},"order":5,},
     {"id":{"name":"Play_Game","path":"sprites/Play_Game/Play_Game.yy",},"order":3,},
     {"id":{"name":"TweenFire","path":"scripts/TweenFire/TweenFire.yy",},"order":3,},
-    {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},"order":2,},
     {"id":{"name":"TPList","path":"scripts/TPList/TPList.yy",},"order":2,},
     {"id":{"name":"TGMS_Documentation","path":"notes/TGMS_Documentation/TGMS_Documentation.yy",},"order":0,},
     {"id":{"name":"gameloop_scr","path":"scripts/gameloop_scr/gameloop_scr.yy",},"order":2,},
@@ -178,7 +177,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Retro Stereo Wide.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "Akira",
