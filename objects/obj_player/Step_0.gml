@@ -20,6 +20,8 @@ if(dash && dashing == false)
 	dashDuration = 10;
 	xSpeed = image_xscale * dashSpd;
 	dashing = true;
+	// call alarm 2 for dash delay
+	instance_create_layer(0, 0, "Pause", Alarm2);
 }
 
 
@@ -32,7 +34,6 @@ if(dashDuration == 0)
 {
 	xSpeed = xDirection * player_speed;
 	ySpeed += .6;
-	dashing = false;
 }
 
 if(dashDuration > 0)
