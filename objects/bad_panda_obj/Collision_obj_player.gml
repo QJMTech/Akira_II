@@ -8,7 +8,7 @@ if(xSpeed >= 5 || xSpeed <= -5)
 	audio_play_sound(jump_sound, 2, false)
 }
 
-else if (!invincible && (xSpeed >= -2 && xSpeed <= 2))
+else if (!invincible && (xSpeed >= -4 && xSpeed <= 4))
 {
 	//play damage sound
 	audio_play_sound(damage_taken_sound, 2, 0);

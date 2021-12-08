@@ -1,5 +1,6 @@
 //stop bgm loop
 audio_stop_sound(BGM_music);
+audio_stop_sound(DNB);
 
 // change first run to false
 if(firstRun == true)
