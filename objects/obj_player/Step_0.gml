@@ -59,7 +59,13 @@ else if ( onTheGround )
 		if(playerCantMove == false)
 		{
 			// Change this to affect jump height
-			ySpeed = -9;
+			if(room== rm_finalLEVEL)
+			{
+				ySpeed = -11;
+			}
+			else{
+				ySpeed = -9;
+			}
 			// Sound effect
 			audio_play_sound(jump_audio, 3, 0);     // replaced with sound from PROJECT 3
 		}

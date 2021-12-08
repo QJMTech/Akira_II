@@ -14,6 +14,11 @@ collect them all.
 Movement:
 	- Press 'A' to move left and 'D' to move right.
 	- Press 'Space' to jump.
+	- Press 'Shift' to DASH
+
+Destroy Badguys:
+	- Dash through a bad guy to destroy
+
 Collect Pickups:
 	- Walk over bomb to collect
 
@@ -30,6 +35,8 @@ End screen:
 1) Intro sequence restarts evertime game is restarted even though it is not the first run.
 
 2) Pause screen causes all sprites to disappear, but doesn't cause an issue in the game.
+
+3) Can dash in cutscene of second level
 
 ## Credits
 

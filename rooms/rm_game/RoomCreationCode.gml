@@ -21,24 +21,25 @@ if(firstRun == false)
 // in this level we want player to immidiately move
 playerCantMove = false;
 HUD_lyr = layer_get_id("HUD");
-instance_create_layer(display_get_gui_width()/2, display_get_gui_height(), HUD_lyr, arrowHUD);
+instance_create_layer(display_get_gui_width()/2, display_get_gui_height(), HUD_lyr, arrowHUD22);
 instance_create_layer(0, 0, "GameTitles", bad_guy_spawner_obj);
 
 // loading font
 globalvar custom_font;
 custom_font = font_add("Retro Stereo Wide.ttf", 24, false, false, 32, 128);
 
+
 // assign variables
 globalvar instance_lyr, HUD_lyr, tokenCount, tokensToWin, remainingLives;
 
 // set player token count to 0
 tokenCount = 0;
-tokensToWin = 3;
+tokensToWin = 1;
 remainingLives = 3;
 
 instance_lyr = layer_get_id("Instances");
 
 // spawn first token in random spot
-spawnToken();
+//spawnToken();
 
 // moved HUD to after HOw To Play is displayed

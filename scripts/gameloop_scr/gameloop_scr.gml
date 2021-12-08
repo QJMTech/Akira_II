@@ -6,9 +6,15 @@ function winCheck()
 	// check if token count is 3
 	if (tokenCount >= tokensToWin)
 		{
-		playerCantMove = true; // prevent player from moving after game over, 
+			if(room == rm_game)
+			{
+				room_goto(rm_finalLEVEL);
+			}
+			else{
+				playerCantMove = true; // prevent player from moving after game over, 
 
-		room_goto(rm_win);
+				room_goto(rm_win);
+			}
 		}
 	}
 	
@@ -16,8 +22,17 @@ function loseCheck()
 	{
 	if (remainingLives == 0)
 		{
-		playerCantMove = true; // prevent player from moving after game over, 
+			if(room == rm_game)
+			{
+				playerCantMove = true; // prevent player from moving after game over, 
 
-		room_goto(rm_game_over);
+				room_restart();
+			}
+			else{
+				playerCantMove = true; // prevent player from moving after game over, 
+
+				room_goto(rm_game_over);
+			}
+		
 		}
 	}

@@ -2,12 +2,23 @@
 globalvar invincible;
 invincible = false;
 
-player_speed = 2;
+if(room == rm_finalLEVEL)
+{
+	player_speed = 3;
+	dashSpd = 10;
+}
+else{
+	player_speed = 2;
+	// Variables for dash
+	dashSpd = 5;
+}
+
+
+
 xSpeed = 0;
 ySpeed = 0;
 
-// Variables for dash
-dashSpd = 5;
+
 dashDuration = 0;
 
 globalvar playerCantMove;
