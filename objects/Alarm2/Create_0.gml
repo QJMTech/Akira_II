@@ -1,2 +1,2 @@
-// call alarm in 30 frames
-alarm[2] = 30;
+// call alarm in 120 frames
+alarm[2] = 120;

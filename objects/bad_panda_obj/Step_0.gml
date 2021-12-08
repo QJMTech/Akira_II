@@ -1,6 +1,6 @@
 
 // sets the bad guy to moving sprite
-sprite_index = panda_moving_spr;
+sprite_index = spr_ground_bad_guy;
 
 // if the bad guy moves right
 if(moveRight)

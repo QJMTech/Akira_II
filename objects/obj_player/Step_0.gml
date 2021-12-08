@@ -3,6 +3,7 @@ var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed (vk_space );
 var dash = keyboard_check_pressed (vk_shift );
 var onTheGround = place_meeting( x, y + 1, obj_wall);
+globalvar xSpeed;
 
 dashDuration = max(dashDuration - 1, 0);
 
@@ -11,6 +12,7 @@ if(playerCantMove == true)
 	xDirection = 0;
 }
 
+show_debug_message(xSpeed)
 // Player shouldnt fall
 if(dashDuration > 0) ySpeed = 0;
 

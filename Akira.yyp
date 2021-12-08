@@ -87,6 +87,7 @@
     {"id":{"name":"TPGrid","path":"scripts/TPGrid/TPGrid.yy",},"order":1,},
     {"id":{"name":"obj_temp_bad_guy","path":"objects/obj_temp_bad_guy/obj_temp_bad_guy.yy",},"order":3,},
     {"id":{"name":"HowToPlay1280x720_spr","path":"sprites/HowToPlay1280x720_spr/HowToPlay1280x720_spr.yy",},"order":8,},
+    {"id":{"name":"Alarm3","path":"objects/Alarm3/Alarm3.yy",},"order":3,},
     {"id":{"name":"Alarm2","path":"objects/Alarm2/Alarm2.yy",},"order":2,},
     {"id":{"name":"TweenIsPlaying","path":"scripts/TweenIsPlaying/TweenIsPlaying.yy",},"order":5,},
     {"id":{"name":"TweenSet","path":"scripts/TweenSet/TweenSet.yy",},"order":10,},
